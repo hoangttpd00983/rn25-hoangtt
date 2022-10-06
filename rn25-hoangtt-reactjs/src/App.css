@@ -37,26 +37,11 @@
     transform: rotate(360deg);
   }
 }
-.wrapper {
-  padding: 0 !important;
-}
-
-.header {
+.header, .footer {
   background: #ccc;
   color: #fff;
-  padding: 10px 0 10px;
 }
-.header h1 {
-
-}
-.col-line {
-  padding: ;
-}
-footer {
-  background: #ccc;
-  color: #fff;
-  text-align: center;
-}
-.col-right {
+.content-right {
   background: #61dafb;
 }
+
