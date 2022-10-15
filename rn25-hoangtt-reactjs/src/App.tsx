@@ -5,9 +5,13 @@ import pic01 from "./images/pexels-nout-gons-378570.jpeg";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-import Basic01 from "./Homeworks/Session02/Basic01"
-import Basic02 from "./Homeworks/Session02/Basic02"
-import Basic03 from "./Homeworks/Session02/Basic03";
+import Basic01 from "./Homeworks/Session02/Basic1/Basic01";
+import Basic02 from "./Homeworks/Session02/Basic2/Basic02";
+import Basic03 from "./Homeworks/Session02/Basic3/Basic03";
+import BtNumber from "./components/Bt/BtNumber";
+import Countdown from "./components/Bt/Countdown";
+import Blockui1 from "./Homeworks/Session02/Blockui1";
+import BlockUi2 from "./Homeworks/Session02/BlockUi2";
 function App() {
   let propFooter = "This web page is a part of a demonstration of fluid web design made by www.w3schools.com. Resize the browser window to see thecontent response to the resizing."
   let isLogin = true
@@ -78,9 +82,19 @@ function App() {
     // <Footer propFooter={propFooter}/>
     // </>
     <>
-      <Basic01/>
+      {/* <Basic01/>
       <Basic02/>
-      <Basic03/>  
+      <Basic03/>   */}
+      {/* <BtNumber/>
+      <Countdown/> */}
+      {/* <Blockui1 text="Bandwidth" color1="#e54d4c" color2="#f75354" percentage={20}/>
+      <Blockui1 text="Storage" color1="#2db8cd" color2="#31c8dd" percentage={50}/>
+      <Blockui1 text="Users" color1="#4ac25e" color2="#51d567" percentage={70}/>
+      <Blockui1 text="Visitor" color1="#e9c318" color2="#fcd518" percentage={30}/>
+      <Blockui1 text="Emails" color1="#bb70d5" color2="#cb79e7" percentage={45}/>
+      <Blockui1 text="Basic" color1="#eb59d6" color2="#fe60e8" percentage={80}/>
+      <Blockui1 text="Others" color1="#5890da" color2="#619bec" percentage={37}/> */}
+      <BlockUi2/>
     </>
    
   );

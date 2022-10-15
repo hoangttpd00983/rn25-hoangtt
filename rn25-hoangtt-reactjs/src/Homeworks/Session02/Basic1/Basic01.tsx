@@ -1,5 +1,6 @@
 import React from 'react'
-import pic01 from "./../../images/1.jpg";
+import pic01 from "./../../../images/1.jpg";
+import './style.css';
 type Props = {}
 
 function basic01({}: Props) {

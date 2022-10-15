@@ -1,0 +1,32 @@
+.section02{
+  width: 100%;
+  height: 120vh;
+  background: #000;
+  position: relative;
+}
+.section02_box {
+  background: #fff;
+  padding: 10px;
+  max-width: 330px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.star-icon {
+  color: #f8ac00;
+  margin-right: 10px;
+}
+.product_name {
+  color: #68a4e2;
+  text-decoration: none;
+  display: block;
+}
+.section02_box-content-title {
+  color: #747474;
+  border-bottom: 1px solid;
+}
+.quantity_rating {
+  color: #747474;;
+}

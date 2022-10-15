@@ -1,0 +1,38 @@
+.container {
+    max-width: 523px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 28px 0;
+}
+.row_chartbar {
+    max-width: 470px;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    background: #fafafa;
+    
+}
+.column_left {
+    width: 28%;
+    padding: 14px 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding-right: 19px;
+    font-size: 12px;
+}
+.column_right {
+    display: flex;
+    flex: 1;
+}
+.column_percent_left {
+    width: 20%;
+    align-items: center;
+    display: flex;
+    padding-left: 16px;
+}
+.column_percent_right {
+    
+}
